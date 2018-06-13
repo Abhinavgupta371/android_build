@@ -117,12 +117,4 @@ $(info $(CLR_MAG)  TARGET_ARCH = $(CLR_RED)$(TARGET_ARCH)$(CLR_RST))
 $(info $(CLR_MAG)  TARGET_ARCH_VARIANT = $(CLR_RED)$(TARGET_ARCH_VARIANT)$(CLR_RST))
 $(info $(CLR_MAG)  TARGET_CPU_VARIANT = $(CLR_RED)$(TARGET_CPU_VARIANT)$(CLR_RST))
 $(info $(CLR_GRN)===========================================================$(CLR_RST))
-$(info $(CLR_MAG)  TARGET_GCC_VERSION = $(CLR_RED)$(TARGET_GCC_VERSION)$(CLR_RST))
-$(info $(CLR_MAG)  TARGET_NDK_GCC_VERSION = $(CLR_RED)$(TARGET_NDK_GCC_VERSION)$(CLR_RST))
-ifdef TARGET_GCC_VERSION_ARM
-$(info $(CLR_MAG)  TARGET_KERNEL_TOOLCHAIN = $(CLR_RED)$(TARGET_GCC_VERSION_ARM)$(CLR_RST))
-else
-$(info $(CLR_MAG)  TARGET_KERNEL_TOOLCHAIN = $(CLR_RED)$(TARGET_GCC_VERSION)$(CLR_RST))
-endif
-$(info $(CLR_GRN)===========================================================$(CLR_RST))
 endif
